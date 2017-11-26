@@ -22,7 +22,39 @@
   font-size: large;
 }
 
+body {
+  background-color: #004027;
+}
+
+a:hover {
+    color: #ffd9a8;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+
+.shareButtons{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10rem;
+  margin-left: 10rem;
+
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+img {
+  max-width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size:12px;
 }
