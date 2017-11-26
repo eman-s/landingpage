@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../App.css';
-import { NavLink } from 'react-router-dom';
 
 
 export default class BaseLayout extends Component {
@@ -13,24 +12,15 @@ export default class BaseLayout extends Component {
     }
     return (
       <div style={style} className="header">
-        <div>
-        <section>
-        <img style={{'height':'10rem'}} src="./images/bartendersballlogo.jpg" alt='jameson' />
-        </section>
-        <section>
-        <a href='https://www.instagram.com/jameson_us/'>
-          <img src="./images/instagram.png" alt='instagram' height='30px'/>
-        </a>
-        <a href='https://www.facebook.com/JamesonWhiskeyUS/'>
-          <img src="./images/facebook.png" alt='instagram' height='30px'/>
-        </a>
-        </section>
-        <h1>You are without fear!</h1>
-        <h3>Thank you for attending the jameson bartenders ball</h3>
-
+        <div style={{'position':'fixed', 'width':'100%'}}>
+          <section style={{'background-color':'#fff0c3', 'padding':'30px', 'max-height':'100%','border-bottom': '1px solid rgba(0,0,0,0.1)'}}>
+          </section>
+          <section>
+            <img style={{'height':'4rem','padding-top':'10px','margin-top':'-60px'}} src="./images/logojameson.svg" alt='jameson' />
+          </section>
         </div>
-        <section>
-        {this.props.children}
+        <section className='content'>
+          {this.props.children}
         </section>
         <div className='footer'>
           <a href='https://www.jamesonwhiskey.com/us/terms-conditions'>Terms & Conditions</a>

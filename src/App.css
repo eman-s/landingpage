@@ -27,7 +27,7 @@ body {
 }
 
 a:hover {
-    color: #ffd9a8;
+    color: #fff0c3;
 }
 a{
   color:black;
@@ -48,13 +48,15 @@ a{
 }
 
 img {
-  max-width: 100%;
+  max-width:100%;
 }
 
 .footer {
   display: flex;
   justify-content: space-around;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
   font-size:12px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
