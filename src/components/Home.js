@@ -38,8 +38,8 @@ export default class Home extends Component{
           <a href='https://www.facebook.com/JamesonWhiskeyUS/'>
           <img src="./images/facebook.png" alt='instagram' height='30px'/></a>
         </section>
-        <h1>You are without fear!</h1>
-        <h3>Thank you for attending the jameson bartenders ball</h3>
+        <h1 style={{'color':'#fff0c3'}}>You are without fear!</h1>
+        <h3 style={{'color':'#fff0c3'}}>Thank you for attending the jameson bartenders ball</h3>
       <section style={{'backgroundColor':'#fff0c3', 'margin-right': '80px','margin-left': '80px','padding-top': '34px', 'padding-bottom':'15px'}}>
           <img style={imgHeight} src={this.state.userimg} alt='user' />
           <p>Be a part of the big picture using <span style={{'color':'#004027'}}>#BartendersBall</span> in your post.</p>
